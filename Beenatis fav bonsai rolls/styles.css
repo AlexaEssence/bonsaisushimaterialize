@@ -1,0 +1,232 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Karma", sans-serif;
+
+}
+
+html {
+    scroll-behavior: smooth;
+    transition: 0.5;
+  }
+
+.w3-bar-block .w3-bar-item {
+    padding: 20px
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end ;
+    background-image: url("./img/banner\ bonsai\ rolls.png");
+    background-size: cover;
+    height: 300px;
+    padding-bottom: 2%;
+}
+
+body{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #323336;
+}
+
+::-webkit-scrollbar{
+    background-color: rgb(124, 107, 107);
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(145, 46, 46) ;
+    width: 10px;
+}
+
+.navbar{
+    background-color: #b02121;
+    display:none;
+    flex-direction: row;
+    justify-content: space-evenly;
+    z-index:2;
+    width:100%;
+    min-width:300px;
+    transition: all 0.7s ease-in-out;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.navbar a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #f3f3f3;
+}
+
+.button-navbar{
+    border: 2px solid #661010;
+    background-color: #fafafa;
+    border-radius: 5px;
+    box-shadow: 2px 5px 10px #ffffff;
+    color: #000;
+    display: grid;
+    place-content: center;
+    font-size: 35px;
+    padding-top: 10px;
+    margin: 50px;
+    height: 50px;
+    width: 50px;
+    z-index: 4;
+    cursor: pointer;
+}
+
+
+.container{
+    gap: 10px;
+    /* width: 90%;
+    margin-left: 50px;
+    margin-right: 50px; */
+    border-radius: 20%;
+}
+
+/*TEXTO O CONTENIDO TEXTUAL*/
+
+#roll{
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
+}
+
+article{
+    width: 90%;
+}
+
+article h3{
+    text-align: center;
+    font-size: 37px;
+    color: #f3f3f3;
+}
+
+article p{
+    width: 600px;
+    font-size: 25px;
+    color: rgb(150, 140, 140);
+}
+
+.alineacionder {
+    display: block;
+    text-align: right;
+    margin-left: 155px;
+}
+
+.about{
+    padding-right: 3rem;
+    padding-left: 3rem;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: rgb(150, 140, 140);;
+}
+
+.about h3{
+    font-size: 37px;
+    color: #f3f3f3;
+}
+
+.about p{
+    font-size: 25px;
+    text-align: justify;
+}
+
+/*IMAGENES*/
+
+.roll-img1{
+    
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 3%;
+    margin-bottom: 5%;
+    height: 250px;
+    width: 400px;
+    box-shadow: 0px 20px 20px #a39292f1;
+}
+
+.roll-img2{
+    align-self: center;
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 4%;
+    margin-bottom: 5%;
+    height: 250px;
+    width: 400px;
+    box-shadow: 0px 20px 20px #a39292f1;
+}
+
+.roll-img3{
+    align-self: center;
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 3%;
+    margin-bottom: 5%;
+    height: 250px;
+    width: 400px;
+    box-shadow: 0px 20px 20px #a39292f1;
+}
+
+.roll-img4{
+    align-self: center;
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 3%;
+    margin-bottom: 5%;
+    height: 250px;
+    width: 400px;
+    box-shadow: 0px 20px 20px #a39292f1;
+}
+
+hr{
+    border: 1.5px solid #f3f3f3;
+}
+
+/*FOOTER*/
+
+footer{
+    align-items: center;
+    background-color: #5c1818;
+    display: flex !important;
+    height: 150px;
+    justify-content: space-evenly;
+    width: 100%;
+    color: #f3f3f3;
+}
+
+footer div{
+    font-weight: 650;
+}
+
+footer div:nth-child(1){
+    text-align: left;
+    font-size: 24px;
+    margin-left: 0%;
+}
+
+.derechos{
+    text-align: left;
+}
+
+.powered{
+    font-size: 24px;
+    text-align: center;
+}
+
+ul{
+    text-decoration: none;
+  display: flex;
+  list-style: none;
+}
+i{
+    color: #f3f3f3;
+    font-size: 2rem;
+    margin: 1rem;
+}
